@@ -1,22 +1,22 @@
-// function myfunction (){
-//     console.log("c");
-//     console.log("h");
-//     console.log("a");
-//     console.log("u");
-//     console.log("d");
-//     console.log("h");
-//     console.log("a");
-//     console.log("r");
-//     console.log("y");
+function myfunction (){
+    console.log("c");
+    console.log("h");
+    console.log("a");
+    console.log("u");
+    console.log("d");
+    console.log("h");
+    console.log("a");
+    console.log("r");
+    console.log("y");
     
-// }
+}
 //  referance and execution
-// myfunction()
+myfunction()
 
-// function addTwoNumbers(number1, number2){
-//     console.log(number1+number2);
+function addTwoNumbers(number1, number2){
+    console.log(number1+number2);
     
-//}
+}
 
 
 function addTwoNumbers(number1, number2){
@@ -28,23 +28,23 @@ function addTwoNumbers(number1, number2){
 }
 
 
-// const result = addTwoNumbers(23,45)
-// console.log("Result:", result);
+const result = addTwoNumbers(23,45)
+console.log("Result:", result);
 
-// function loginUserMessage(username="sam"){
-//     if(username === undefined){
-//         console.log("enter username")
-//         return
-//     }
-//     return `${username} just logged in `
-// }
-// console.log(loginUserMessage("rohit")) // if value is not passed it will give undefined
+function loginUserMessage(username="sam"){
+    if(username === undefined){
+        console.log("enter username")
+        return
+    }
+    return `${username} just logged in `
+}
+console.log(loginUserMessage("rohit")) // if value is not passed it will give undefined
 
-// function calculateCartPrice(...num1){
-//     return num1
+function calculateCartPrice(...num1){
+    return num1
 
-// }
-// console.log(calculateCartPrice(200,300,400,500));
+}
+console.log(calculateCartPrice(200,300,400,500));
 
 
 
